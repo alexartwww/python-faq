@@ -28,6 +28,9 @@ if __name__ == '__main__':
     print(v.a) # 2
 
 
+
+
+
 class Singleton(type):
     _instances = {}
     def __call__(cls, *args, **kwargs):
