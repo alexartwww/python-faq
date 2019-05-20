@@ -16,7 +16,7 @@ def read_file(filename, encoding='utf-8'):
 
 if __name__ == '__main__':
 
-    for i in my_range(10,2):
+    for i in my_range(10, 2):
         print(i)
 
     for data in read_file('text.txt'):
